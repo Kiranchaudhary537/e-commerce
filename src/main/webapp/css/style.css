@@ -1,0 +1,81 @@
+.custom-bg{
+    background-color: #0f1111;
+}
+
+.linkcolor{
+    color:white !important;
+}
+
+.admin .card{
+    border: 1px solid cornflowerblue;
+}
+
+.admin .card:hover{
+    background: #e2e2e2;
+    cursor: pointer;
+}
+
+.list-group-item.active{
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+}
+
+.catColor{
+    background: #004080 !important;
+    color: whitesmoke;
+}
+
+.discount-label{
+    font-size: 10px !important;
+    font-style: italic !important;
+}
+
+/*upload png photos from admin panel*/
+.product-card:hover{
+    background: #e2e2e2;
+    cursor: pointer;
+}
+
+/*Toast CSS*/
+#toast {
+      min-width: 300px;
+      position: fixed;
+      bottom: 30px;
+      left: 50%;
+      margin-left: -120px;
+      background-color: #333;
+      padding: 15px;
+      color: white;
+      text-align: center;
+      z-index: 1;
+      font-size: 18px;
+      visibility: hidden;
+      box-shadow: 0px 0px 100px #44414100;
+    }
+
+    #toast.display {
+      visibility: visible;
+      animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+    }
+
+    @keyframes fadeIn {
+      from {
+        bottom: 0;
+        opacity: 0;
+      }
+      to {
+        bottom: 30px;
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeOut {
+      from {
+        bottom: 30px;
+        opacity: 1;
+      }
+      to {
+        bottom: 0;
+        opacity: 0;
+      }
+    }
